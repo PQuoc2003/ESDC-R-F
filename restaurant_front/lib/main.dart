@@ -14,7 +14,8 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
       onGenerateRoute: RouterManager.generateRoute,
-      initialRoute: Routes.backendPage,
+      initialRoute: Routes.loginScreen,
+      debugShowCheckedModeBanner: false,
     );
   }
 }
